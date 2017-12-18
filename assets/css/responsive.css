@@ -1,0 +1,217 @@
+/* ----------------------------------------------------------------------------------------
+* Author        : 1W Media
+* Template Name : My Begin | Personal Portfolio Template
+* Version       : 1.0     
+* ---------------------------------------------------------------------------------------- */ 
+
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .banner-area {   
+       height:500px;
+       min-height: 500px;
+       position: relative; 
+       background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../img/banner-img.png);  
+       background-size: cover;
+       background-position: top center;
+    }
+    
+
+    .navbar-nav li a {        
+        margin-left: 38px;        
+    }
+
+    .about-text {
+        margin-top: 50px;
+    }
+
+
+    .service-box {        
+        margin-bottom: 40px;
+    }
+
+
+    .skillbar {
+        margin-bottom: 100px;       
+    }
+
+    .skillbar-last {
+        margin-bottom: 20px;   
+    }
+
+    .addr {        
+        text-align: center;
+        border-bottom: #7f7f7f 1px solid;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .btn-lg {        
+        width: 40%;
+        height: 50px;               
+        margin-left: 0px;
+    }
+
+    #submitButton  {        
+        width: 40%;
+        height: 50px;               
+        margin-left: 220px;
+    }    
+    
+    #map {
+        height: 350px;
+      }
+   
+
+}
+
+
+
+/* Mobile Layout: 767px. */
+
+@media only screen and (max-width: 767px) {
+
+    .caption h1 {
+        font-size: 35px;
+    }
+   
+	.navbar-toggle .icon-bar {
+        background: #000;
+    }
+    .navbar-toggle {
+        margin-right: 0px;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        background: #1B1B1B;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        text-align: right;
+    }
+
+    .navbar {
+        min-height: 0px;        
+    }    
+
+    .mainmenu .navbar-nav {
+        margin: 0;
+    }
+    .mainmenu .navbar-nav li {
+        float: none;
+        display: block;
+    }
+    .mainmenu .navbar-nav li a {
+        padding: 7px 0px;
+        margin-top: 11px;
+        margin-bottom: 11px;
+    }
+    .menu-bg .mainmenu .navbar-nav li a {
+        padding: 11px 15px;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 420px;
+    }
+
+    .navbar-toggle {}
+    a.about-button {
+        margin-top: 0;
+    }
+
+    .banner-area {   
+       height:500px;
+       min-height: 500px;
+       position: relative; 
+       background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../img/banner-img.png);  
+       background-size: cover;
+       background-position: top center;
+    }
+
+    .about-text {
+        margin-top: 50px;
+    }
+
+    .smo li {
+        padding-left: 15px;        
+    }
+
+    .skillbar {
+        margin-bottom: 100px;      
+     }
+
+    .skillbar-last {
+        margin-bottom: 20px;  
+    }
+
+    .section-title h3 {
+        font-size: 20px;    
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+        font-weight: 500;
+        margin-bottom: 0;
+        line-height: 21px;
+        color: #055353;
+    }
+
+    .section-title.white h2 {
+        color: #fff;
+    }    
+
+    .social{        
+        padding-right: 0px;
+    }
+
+    .service-box {        
+        margin-bottom: 30px;
+    }
+    
+    .btn-lg {
+        width: 100%;
+    }
+
+    .addr {        
+        text-align: center;
+        border-bottom: #7f7f7f 1px solid;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+
+    #map {
+        height: 300px;
+      }
+
+    .social-links li a i {        
+        margin: 0 10px;
+        width: 36px;
+        height: 36px;
+        line-height: 46px;
+    }
+
+    .footer-area {
+        padding: 80px 0px;
+}
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (max-width: 480px) {
+
+	
+
+
+}
